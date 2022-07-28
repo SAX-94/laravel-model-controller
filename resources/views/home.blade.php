@@ -3,16 +3,6 @@
 @section('pageMain')
     <main>
 
-        {{-- @foreach ($movies as $movie)
-            <h2>{{ $movie->title }}</h2>
-            <h2>{{ $movie->original_title }}</h2>
-            <h2>{{ $movie->nationality }}</h2>
-            <h2>{{ $movie->date }}</h2>
-            <h2>{{ $movie->vote }}</h2>
-        @endforeach --}}
-
-
-
         @foreach ($movies as $movie)
             <div class="testimotionals">
                 <div class="card">
@@ -39,9 +29,6 @@
                 </div>
             </div>
         @endforeach
-
-
-
 
     </main>
 @endsection
